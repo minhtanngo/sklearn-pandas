@@ -14,6 +14,6 @@ Note: You don't need to install `sklearn-pandas` in your virtualenv to run the t
 ## Guidelines
 
 - Remember that `sklearn-pandas` does not expect to do everything. Its scope is to serve as an integration layer between `scikit-learn` and `pandas` where needed. If the feature you want to implement adds a lot of complexity to the code, think twice if it is really needed or can be worked around in a few lines.
-- Always write tests for any change introduced.
+- Always write tests for any changes introduced.
 - If the change involves new options or modifies the public interface, modify also the `README` file explaining how to use it. It uses doctests to test the documentation itself.
 - If the change is not just cosmetic, add a line to the Changelog section and your name to the Credits section of the `README` file.
